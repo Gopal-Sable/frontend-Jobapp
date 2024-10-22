@@ -1,0 +1,93 @@
+.otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.otp-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+.info {
+  flex: 1;
+  padding-right: 40px;
+  font-size: 16px;
+  color: #666;
+}
+
+.otp-form {
+  flex: 1;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.btn-submit {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: green;
+  margin-top: 15px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 15px;
+}
