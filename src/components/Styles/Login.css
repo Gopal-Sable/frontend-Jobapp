@@ -1,0 +1,132 @@
+/* Styles/Login.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+  }
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full page height */
+    background: #f7f8fa;
+  }
+  
+  .login-container {
+    background: #fff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center */
+    border-radius: 0;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 1.5rem;
+  }
+  
+  .login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    height: 100%;
+  }
+  
+  .info {
+    width: 40%; /* Reduced width */
+    text-align: left;
+    padding-right: 1.5rem; /* Reduced padding */
+  }
+  
+  .info p {
+    font-size: 1.1rem; /* Slightly reduced font size */
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .login-form {
+    width: 40%; /* Reduced width */
+    background-color: #fff;
+    padding: 1.5rem; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .tagline {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1.2rem; /* Reduced margin */
+  }
+  
+  .form-group {
+    margin-bottom: 1.2rem; /* Reduced margin between fields */
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.65rem; /* Reduced input padding */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  

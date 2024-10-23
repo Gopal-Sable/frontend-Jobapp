@@ -1,0 +1,109 @@
+/* Dashboard Container */
+.dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 70px 1fr;
+    grid-template-areas: 
+      "sidebar header"
+      "sidebar main";
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.sidebar-content {
+    text-align: left;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.logo-icon {
+    font-size: 30px;
+    color: #007bff;
+}
+
+.logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-left: 10px;
+}
+
+.create-interview-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.create-interview-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Header Styling */
+.header {
+    grid-area: header;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-contact {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.profile-dropdown {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Main Content Styling */
+.main-content {
+    grid-area: main;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.job-post-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Adjustments for Overall Layout */
+.sidebar, .header, .main-content {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

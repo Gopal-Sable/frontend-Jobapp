@@ -6,7 +6,9 @@ const API_URL ="https://jobbackend-ce5d.onrender.com" //process.env.REACT_APP_AP
 export const postJob = async (jobData, token) => {
   try {
     const response = await axios.post(`${API_URL}/api/jobs/job`, jobData, {
-      headers: { Authorization: token }
+      headers: { Authorization: token ,
+        'Content-Type': 'application/json'
+      }
     });
     return response.data;
   } catch (err) {
